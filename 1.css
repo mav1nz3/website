@@ -1,0 +1,145 @@
+.main{
+	width: 1500px;
+	height: 3000px;
+	display: flex;
+	box-shadow: 0 0 5px;
+	background-color: #fffedf;
+}
+.header{
+	width: 1500px;
+	height: 800px;
+	background-color: white;
+	margin: auto;
+	box-shadow: 0 0 5px;
+}
+.contacts{
+	width: 1500px;
+	height: 50px;
+	background-color: #0CFF;
+	padding-top: 12px;
+	display: flex;
+}
+.header-main{
+	width: 1500px;
+	height: 350px;
+	display: flex;
+}
+.menu{
+	width:  300px;
+	height: 3000px;
+	background-color: #669acc;
+}
+.m-title{
+  	text-transform: uppercase;
+  	letter-spacing: 2px;
+	font-size: 26px;
+  	margin-bottom: 15px;
+  	margin-left: 85px;
+  	margin-top: 15px;
+  	border-bottom: 1px solid black;
+  	width: 130px
+}
+.m-list{
+  	padding: 0;
+  	list-style: none;
+  	padding-left: 15px
+}
+.m-list a:before {
+  	content: "\00BB";
+  	margin-right: 14px;
+}
+.m-list a {
+ 	text-decoration: none;
+  	outline: none;
+ 	display: block;
+	padding: 5px 0; 
+	letter-spacing: 1px;
+	font-weight: 300;
+	transition: .3s linear;
+}
+.m-list a:hover {
+	color: white;
+}
+.info{
+	text-decoration: none;
+	color: black;
+	margin: auto;
+	font-size: 25px;
+	letter-spacing: 1px;	
+}
+.box{
+	display: block;
+}
+.wlcm{
+	margin-left: 255px; 
+	margin-top: 10px;
+}
+.tgn-tt{
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.nav{
+	margin-top: 00px;
+	width: 1200px;
+}
+.nav-txt{
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-right: 5px;
+	text-align: justify;
+	width: 92%;
+}
+.mlv-txt{
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: justify;
+	width: 92%;
+}
+.lvl-txt{
+	font-size: 20px;
+	margin-left: 410px;
+	margin-top: 15px;
+	margin-right: 5px;
+	text-align: center;
+}
+.inf-txt{
+	font-size: 20px;
+	position: absolute;
+	left: 552px;	
+}
+.info-txt{
+	font-size: 20px;
+	margin-top: 5px;
+}
+.spo-txt{
+	font-size: 30px;
+	margin-left: 250px;
+	margin-top: 15px;
+	margin-right: 5px;
+	text-align: center;
+}
+.nav ul li a l{
+	opacity: 0;
+	width: 100px;
+	height: auto;
+	padding: 0px;
+	position: absolute;
+    top: 0px;
+    left: 100%;
+    list-style: none;
+}
+.und-menu{
+	list-style: none;
+}
+.und-menu ul li a:hover{
+	opacity: 1;
+	padding: 5px 20px;
+}
+
+.und-menu a:hover{
+    color: white;
+    opacity: 1;
+}

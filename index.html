@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<style>
+		.main{
+			width: 1500px;
+			height: 3000px;
+			display: flex;
+			box-shadow: 0 0 5px;
+			margin-t
+		}
+		.nme{
+			width: 1500px;
+			height: 65px;
+			background-color: #1a81c6;
+			font-size: 20px;
+			color: black;
+		}
+		.links{
+			text-decoration: none;
+			color: ;
+			margin-left: 20px;
+			color: #333333;
+		}
+		.links:hover{
+			color: white;
+			transition: 0.5s;
+
+		}
+		.links1{
+			text-decoration: none;
+			color: #333333;
+			margin-left: 20px;
+		}
+		.links1:hover{
+			color: white;
+			transition: 0.5s;
+		}
+		.links2{
+			text-decoration: none;
+			color: #333333;
+			
+		}
+		.links2:hover{
+			color: white;
+			transition: 0.5s;
+		}
+		.links3{
+			text-decoration: none;
+			color: #333333;
+			
+		}
+		.links3:hover{
+			color: white;
+			transition: 0.5s;
+		}
+		li{
+			text-decoration: none;
+		}
+		.topmenu li {
+ 			display: inline-block;
+  			position: relative;
+  			margin-top: 20px;
+  			transition: .5s linear;
+		}
+		.undmenu{
+			position: absolute;
+ 			top: 28px;
+  			left: 105px;
+ 			width: 135px;
+ 			height: 220px;
+ 			background-color: #1a81c6;
+ 			visibility: hidden;
+ 			opacity: 0;
+			font-size: 18px;
+  			transition: 0.5s ease-in-out;
+  			color: black;
+		}
+		ul li:hover .undmenu {
+  			visibility: visible;
+  			opacity: 1;
+  			display: block;
+  			transition: 0.5s;
+  		}
+  		.undmenu1{
+			position: absolute;
+ 			top: 30px;
+  			left: 60px;
+ 			width: 305px;
+ 			height: 120px;
+ 			background-color: #1a81c6;
+ 			visibility: hidden;
+ 			opacity: 0;
+			font-size: 18px;
+  			transition: 0.5s ease-in-out;
+  			color: black;
+  			
+		}
+		ul li:hover .undmenu1 {
+  			visibility: visible;
+  			opacity: 1;
+  			display: block;
+  			transition: 0.5s;
+  		}
+  		.undmenu2{
+			position: absolute;
+ 			top: 30px;
+  			left: -20px;
+ 			width: 160px;
+ 			height: 200px;
+ 			background-color: #1a81c6;
+ 			visibility: hidden;
+ 			opacity: 0;
+			font-size: 18px;
+  			transition: 0.5s ease-in-out;
+  			color: black;
+		}
+		ul li:hover .undmenu2 {
+  			visibility: visible;
+  			opacity: 1;
+  			display: block;
+  			transition: 0.5s;
+  		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="contacts">
+			<a style="margin-left: 50px; color: white" href="mailto:spo2022.zz@yandex.ru">spo2022.zz@yandex.ru</a>
+			<div style="margin-left: 1100px; display: flex;">
+				<img style="width: 30px; height: 30px" src="phone.png" alt="">
+				<p style="margin-left: 10px; margin-top: 2px">(914) 262-20-80</p>
+			</div>
+		</div>
+		<div class="header-main">
+			<img style="width: 225px; height: 225px; margin-left: 100px; margin-top: 50px" src="TRAEKTO.png" alt="">
+			<div style="display: block">
+			<p style="font-size: 30px; margin-top: 55px; text-align: center;  margin-left: 75px; font-family: arial "><b style="color: #000066;">Информационно-справочный навигатор <br> для учащихся 8-9 классов общеобразовательных школ</b></p>
+			<p style="font-size: 60px; margin-top: 5px; text-align: center;  margin-left: 75px; font-family: "><b style=" color: #000066;"><i>Трае<b>КТО</b>ри<b>Я</b> выбора</i></b></p>
+			</div>
+		</div>
+		<div class="nme">
+		<ul class="topmenu">
+			<li style="margin-left: 20px; border-right: 2px solid black; padding-right: 20px; "><a class="links" href="index.html">Главная</a></li>
+			<li style="border-right: 2px solid black; padding-right: 20px;"><a class="links" href="kbpc.html">Как выбрать профильный класс</a></li>
+			<li style="border-right: 2px solid black; padding-right: 20px;"><a class="links" href="prof.html">Профильные классы в учреждениях</a>
+				<ul class="undmenu">
+					<li style="border-bottom: 1px solid black; width: 70px; padding-bottom: 5px"><a class="links1" href="gkg.html">ГКГ</a></li>
+					<li style="border-bottom: 1px solid black; width: 70px; padding-bottom: 5px"><a class="links1" href="ygl.html">ЯГЛ</a></li>
+					<li style="border-bottom: 1px solid black; width: 70px; padding-bottom: 5px"><a class="links1" href="ftl.html">ФТЛ</a></li>
+					<li><a class="links1" href="mash.html">МАШ</a></li>
+				</ul>
+			</li>
+			<li style="border-right:2px solid black; padding-right: 20px;"><a class="links" href="">Среднее профессиональное образование</a>
+				<ul class="undmenu1">
+					<li><a class="links2" style="margin-left: 60px; padding-bottom: 10px" href="cts.html">Что такое СПО</a></li>
+					<li><a class="links2" style="margin-left: 20px; border-top: 1px solid black; width: 100px; padding-top: 11px" href="spo.html">Порядок получения СПО</a></li>	
+				</ul>
+			</li>
+			<li><a class="links" href="#">СПО РС(Я)</a>
+				<ul class="undmenu2">
+					<li><a class="links3" href="rsya.html">Cписок СПО РС(Я)</a></li>
+					<li style="border-top: 1px solid black; width: 100px; padding-top: 11px"><a class="links3" href="pnsr.html">Перечень направлений СПО РС(Я)</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+		<div style="background-image: url(8.jpg); width: 1500px; height: 800px; padding-top: 180px">
+			<div style="box-shadow: 0 0 5px; background-color: black; background: rgba(0, 0, 0, 0.6);  width: 620px; height: 465px; margin-left: 50px; padding-top: 25px; margin-top: 100px">
+				<p style="color: white; opacity: 1; font-size: 28px; margin-left: 110px; margin-top: 30px">Добро пожаловать на мой сайт!</p>
+				<p style="color: white; text-align: justify; width: 87%;" class="mlv-txt">Данный ресурс познакомит вас с системой уровней образования в стране, профильными направлениями в старших классах, порядком получения среднего профессионального образования.</p>
+				<p style="color: white; text-align: justify; width: 87%;" class="mlv-txt">В настоящее время на сайте размещена информация о профильных классах в ведущих учреждениях нашего города и средних специальных учебных заведениях нашей республики.</p>
+			</div>
+		</div>
+	</div>
+	<div style="width: 1499px; height: 50px; margin: auto; margin-top: 465px; padding-top: 1px; box-shadow: 0 0 5px; background: lightgray" >
+		<p class="mlv-txt" style="margin-left: 1270px; margin-top: px">© Барашков Никита</p>
+	</div>
+</body>
+</html>
